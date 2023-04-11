@@ -7,7 +7,7 @@ const Profile = () => {
   return (
     <div class="profile">
       <Helmet>
-        <title>Kartik info</title>
+        <title>Kartik information</title>
         <meta
           name="description"
           content="Here you'll get all the information related to Kartik Kulshreshtha profile"
