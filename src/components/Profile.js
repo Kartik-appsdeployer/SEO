@@ -18,7 +18,7 @@ const Profile = () => {
         />
       </Helmet>
       <div class="profile-header">
-        <img src={Logo} alt="Profile Picture" />
+        <img src={Logo} alt="Profile" />
         <h1>Kartik</h1>
         <p>Full Stack Developer</p>
       </div>
