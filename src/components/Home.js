@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/Home.css';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -19,10 +20,10 @@ const Home = () => {
       <header>
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/profile">Profile</Link></li>
+            <li><Link to="/login">Login</Link></li>
+            <li><Link to="/signup">SignUp</Link></li>
           </ul>
         </nav>
       </header>
